@@ -20,6 +20,10 @@
         </activity>
         <activity android:name=".activity.WeatherActivity">
         </activity>
+        <service android:name=".service.AutoUpdateService">
+        </service>
+        <receiver android:name=".service.AutoUpdateReceiver">
+        </receiver>
     </application>
 
 </manifest>
